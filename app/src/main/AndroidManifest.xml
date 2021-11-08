@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheHungryDeveloper">
+
         <activity
             android:name=".StartersActivity"
             android:exported="false"
             android:label="Starters"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainCoursesActivity"
+            android:exported="false"
+            android:label="Main Courses"
+            android:parentActivityName=".MainCoursesActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
