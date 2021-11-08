@@ -21,6 +21,11 @@
             android:label="Main Courses"
             android:parentActivityName=".MainCoursesActivity" />
         <activity
+            android:name=".DessertsActivity"
+            android:exported="false"
+            android:label="Desserts"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
